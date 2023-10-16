@@ -1,0 +1,7 @@
+﻿
+
+##build mule 4 images
+docker build . -t mule:4.4.0 
+
+##create container of mule 4 image and start the images
+docker run -p 8081:8081 mule:4.4.0
